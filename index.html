@@ -7,56 +7,71 @@
     <title>Odin Landing Page</title>
 </head>
 <body>
-    <div class="first">
-        <nav>
-            <div class="logo">
-                <h4>Odin Climbs</h4>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Quote</a></li>
-            </ul>
-        </nav>
-        <div class="first-content">
-            <div class="first-text">
-                <p class="hero-text">Berlin climbing newsletter</p>
-                <p class="hero-content">The Berlin Climbing Newsletter provides the latest updates, news, and tips for climbing enthusiasts in Berlin.</p>
-                <button>Sign up</button>
-            </div>
-            <img src="./assets/Bunkerklettern_Kegel_GettyImages-89282497_Fot_JuergenBosse_web.jpg" alt="Climbing in Berlin">
+    <header>
+        <div class="left-links">
+            <p class="logo">LOGO</p>
         </div>
-    </div>
-    <div class="second">
-        <div class="news-header">
-            <p>Upcoming Events</p>
-        </div>
-        <div class="box-container">
-            <div class="box">
-                <img src="./assets/Scarpa2023.jpeg" alt="Climbing in Berlin">
-                <p>Scarpa Demo Tour 2023</p>
-                <p>22.11.2023</p>
-                <p>17:00 - 22:00 Uhr</p>
+
+        <ul>
+            <li><a href="#content">Information</a></li>
+            <li><a href="#quote">Quote</a></li>
+            <li><a href="#sign-up">Sign-Up</a></li>
+        </ul>
+    </header>
+
+    <div class="main">
+        <div class="intro">
+            <div class="intro-text">
+                <h1>This website is awesome</h1>
+                <p class="sidekick-text">This website has some subtext that goes here under the main title. It's a smaller font and color is lower contrast.</p>
+                <button class="sign-up">Sign up</button>
             </div>
-            <div class="box">
-                <img src="./assets/ostbloc_cup.jpeg" alt="Ostbloc Cup">
-                <p>Ostbloc Cup</p>
-                <p>09.12.2023</p>
-            </div>
-            <div class="box">
-                <img src="Bunkerklettern_Kegel_GettyImages-89282497_Fot_JuergenBosse_web.jpg" alt="Climbing in Berlin">
-                <p>Some news</p>
+            <div class="image">
+                <img>
             </div>
         </div>
+        
+        <div id="content" class="content">
+            <h2>Some random information</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <div class="content-img"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="quote" class="quote">
+            <p>The only limit to our realization of tomorrow will be our doubts of today. 
+                Let us move forward with strong and active faith. 
+            </p>
+            <p class="author">- Franklin D. Roosevelt</p>
+        </div>
+
+        <div id="sign-up" class="sign-up-section">
+            <div class="text">
+                <p><b>Call to action! It's time!</b></p>
+                <p class="small">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="sign-up">Sign up</button>
+        </div>
     </div>
-    <div class="third">
-        Third
-    </div>
-    <div class="fourth">
-        Fourth
-    </div>
-    <div class="footer">
-        <p>Odin Project &copy; 2023 </p>
-    </div>
+
+    <footer>
+        <p>Copyright <span>&#169</span> The Odin Project 2023</p>
+    </footer>
+
 </body>
 </html>
